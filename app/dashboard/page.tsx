@@ -8,7 +8,7 @@ const DashboardPage = async () => {
     return redirect("/");
   }
 
-  console.log("authenticated user ->", authenticatedUser);
+  // console.log("authenticated user ->", authenticatedUser);
 
   return <div>Dashboard</div>;
 };
